@@ -1,0 +1,87 @@
+html {
+scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient( orangered, orange, yellow);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
+}
+
+/* Navigation*/
+.navigation-link{
+    border: 2px solid rgb(166, 21, 233);
+}
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid purple;
+    transition: 0.5s ease;
+}
+
+/*Main Heading font*/
+.m-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-white{
+    color: white;
+}
+
+/* Main Container Height*/
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(10.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#j{
+    border: 1px solid orangered;
+    text-shadow: 3px 3px 3px red;
+}
+
+/*Aligning items in main row */
+.main_row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Changing Name Font size */
+.main_row h1{
+    font-size: 5rem;
+}
+
+/* Making the image the size of the screen*/
+.main_row img{
+    width: auto;
+    height: 100vh;
+}
+
+.about{
+    background: rgb(37, 63, 212);
+    border-radius: 0.5rem;
+
+}
+
+.card{
+    border-bottom: 8px solid gold;
+}
+
+/*Social Media Section*/
+#social-media {
+    background: darkblue;
+}
+
+/* Add color to social media links*/
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid lawngreen;
+    border-radius: 0.5rem;
+}
+#menu{
+    background-color: rgb(134, 48, 231);
+}
